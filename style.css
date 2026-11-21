@@ -16,3 +16,13 @@ footer { color: #a7abc1; font-size: .9rem; margin-top: 40px; }
 .invitation-code { font-size: 1.6rem; font-weight: 750; letter-spacing: .08em; color: #ffe19a; overflow-wrap: anywhere; }
 .invite-button { display: inline-block; padding: 14px 20px; border-radius: 16px; background: #ffe19a; color: #10121e; font-weight: 700; text-decoration: none; }
 [hidden] { display: none !important; }
+.marketing { max-width: 1200px; }
+.brand { display: inline-flex; align-items: center; gap: 16px; color: #f7f6ff; font-weight: 750; text-decoration: none; }
+.brand img { border-radius: 16px; }
+.hero-art { display: block; width: 100%; height: auto; border-radius: 24px; }
+.marketing nav { align-items: center; }
+.poster-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 20px; }
+.poster-grid figure { margin: 0; overflow: hidden; border: 1px solid #393d59; border-radius: 18px; background: #10121e; }
+.poster-grid img { display: block; width: 100%; height: auto; }
+.poster-grid figcaption { padding: 16px; font-weight: 650; }
+.app-preview { display: block; width: 100%; max-width: 390px; height: auto; margin: auto; border-radius: 20px; background: #080a13; }
